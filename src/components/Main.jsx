@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function () {
+export default function (props) {
+  const {data}= props
   return (
-    <div>
-        
+    <div className='imageContainer'>
+        <img src={data?.hdurl} alt="{data.title||'bg-img'}" className='backgroundImage'/>
     </div>
   )
 }
