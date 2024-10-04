@@ -78,17 +78,19 @@ footer{
   padding: 1 rem;
   overflow-y: scroll;
   height: 100%;
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   margin-left: auto;
   background: #010400;
 }
 .sidebarContents{
   margin: unset;
+  padding: 1rem;
 }
 
 .sidebarContents div{
   flex: 1;
+  
 }
 
 .sidebarContents button{
@@ -99,7 +101,7 @@ footer{
   margin-right: auto;
   cursor: pointer;
   transition-duration: 200ms;
-  padding: 1rem;
+  
 }
 
 .sidebarContents button :hover{
